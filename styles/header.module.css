@@ -1,6 +1,6 @@
 .header {
     background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/img/header.jpg);
-    padding: 2rem 0;
+    padding: 5rem 0;
     background-position: center;
     background-size: cover;
 }
@@ -39,6 +39,6 @@
     transition-duration: 300ms;
 }
 
-.navegacion a:hover {
+.navegacion a:hover, .active {
     background-color: var(--primary);
 }
