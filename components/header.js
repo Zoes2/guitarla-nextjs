@@ -41,6 +41,12 @@ export default function Header() {
                             Tienda
                         </a>
                     </Link>
+
+                    <Link href="/carrito">
+                        <a>
+                            <Image width={30} height={25} src="/img/carrito.png" alt="Imagen carrito"/>
+                        </a>
+                    </Link>
                 </nav>
             </div>
         </header>
