@@ -4,8 +4,6 @@ import Layout from '../../components/layout'
 
 export default function Producto({ guitarra }) {
 
-    console.log(guitarra[0]?.attributes)
-
     const { nombre, descripcion, imagen, precio } = guitarra[0]?.attributes
     return (
         <Layout
