@@ -18,18 +18,16 @@ export default function Tienda({ guitarras }) {
         </div>
       </main>
     </Layout>
-  );
+  )
 }
 
 export async function getServerSideProps() {
-  const respuesta = await fetch(
-    `${process.env.API_URL}/guitarras?populate=imagen`
-  );
-  const { data: guitarras } = await respuesta.json();
+  const respuesta = await fetch(`${process.env.API_URL}/guitarras?populate=imagen`)
+  const { data: guitarras } = await respuesta.json()
 
   return {
     props: {
-      guitarras,
-    },
-  };
+      guitarras
+    }
+  }
 }
