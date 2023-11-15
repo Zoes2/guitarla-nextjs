@@ -5,7 +5,7 @@ import styles from '../styles/grid.module.css'
 export default function Tienda({ guitarras }) {
   return (
     <Layout
-      tittle={"GuitarLA - Tienda Virtual"}
+      tittle={"Tienda Virtual"}
       description={"Tienda Virtual, venta de guitarras, instrumentos, GuitarLA"}
     >
       <main className="contenedor">
